@@ -1,0 +1,7 @@
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.AssemblyInfo.cs
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\brook\Documents\David's Development\David\APIConsumeDAL\obj\Debug\net7.0\APIConsumeDAL.MvcApplicationPartsAssemblyInfo.cache

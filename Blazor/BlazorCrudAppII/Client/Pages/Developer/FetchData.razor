@@ -1,0 +1,14 @@
+﻿@page "/developer"
+@using BlazorCrudAppII.Shared.Data;
+@inject HttpClient client
+@inject IJSRuntime js
+
+<div>Developers</div>
+
+@code {
+    List<Developer> developers { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        developers = await client.GetFromJsonAsync<List<Developer>>("developer");
+    }
+}

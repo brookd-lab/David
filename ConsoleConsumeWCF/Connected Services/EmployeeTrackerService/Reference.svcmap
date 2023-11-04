@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="d47cf099-a38c-4aaa-9200-d4a0e6f9b764" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64713/EmployeeTracker.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmployeeTracker.wsdl" MetadataType="Wsdl" ID="809bdb99-694f-439b-b7ec-905fa204f292" SourceId="1" SourceUrl="http://localhost:64713/EmployeeTracker.svc?wsdl" />
+    <MetadataFile FileName="EmployeeTracker.disco" MetadataType="Disco" ID="6877e5f3-c72d-4274-bda3-c2b225283cee" SourceId="1" SourceUrl="http://localhost:64713/EmployeeTracker.svc?disco" />
+    <MetadataFile FileName="EmployeeTracker.xsd" MetadataType="Schema" ID="082b6ef5-66fd-4bbf-a5e9-3f0bce47c875" SourceId="1" SourceUrl="http://localhost:64713/EmployeeTracker.svc?xsd=xsd0" />
+    <MetadataFile FileName="EmployeeTracker1.xsd" MetadataType="Schema" ID="2696ce0c-c27e-4c27-82b0-3be4c3e40714" SourceId="1" SourceUrl="http://localhost:64713/EmployeeTracker.svc?xsd=xsd2" />
+    <MetadataFile FileName="EmployeeTracker2.xsd" MetadataType="Schema" ID="5a47d89d-fd2a-47b0-9720-2345931ccd9f" SourceId="1" SourceUrl="http://localhost:64713/EmployeeTracker.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

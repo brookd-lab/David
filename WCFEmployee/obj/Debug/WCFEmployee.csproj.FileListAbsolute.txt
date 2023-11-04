@@ -1,0 +1,12 @@
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\WCFEmployee.dll.config
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\WCFEmployee.dll
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\WCFEmployee.pdb
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\EntityFramework.dll
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\EntityFramework.SqlServer.dll
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\EntityFramework.xml
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\bin\EntityFramework.SqlServer.xml
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\obj\Debug\WCFEmployee.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\obj\Debug\WCFEmployee.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\obj\Debug\WCFEmployee.csproj.CopyComplete
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\obj\Debug\WCFEmployee.dll
+C:\Users\brook\Documents\David's Development\David\WCFEmployee\obj\Debug\WCFEmployee.pdb

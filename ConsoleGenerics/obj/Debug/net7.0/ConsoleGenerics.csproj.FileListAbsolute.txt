@@ -1,0 +1,15 @@
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\bin\Debug\net7.0\ConsoleGenerics.exe
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\bin\Debug\net7.0\ConsoleGenerics.deps.json
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\bin\Debug\net7.0\ConsoleGenerics.runtimeconfig.json
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\bin\Debug\net7.0\ConsoleGenerics.dll
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\bin\Debug\net7.0\ConsoleGenerics.pdb
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.AssemblyInfo.cs
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.dll
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\refint\ConsoleGenerics.dll
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.pdb
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ConsoleGenerics.genruntimeconfig.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleGenerics\obj\Debug\net7.0\ref\ConsoleGenerics.dll

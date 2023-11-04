@@ -1,0 +1,8 @@
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\obj\Debug\ConsoleConsumeWCF.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\obj\Debug\ConsoleConsumeWCF.csproj.SuggestedBindingRedirects.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\obj\Debug\ConsoleConsumeWCF.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\bin\Debug\ConsoleConsumeWCF.exe.config
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\bin\Debug\ConsoleConsumeWCF.exe
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\bin\Debug\ConsoleConsumeWCF.pdb
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\obj\Debug\ConsoleConsumeWCF.exe
+C:\Users\brook\Documents\David's Development\David\ConsoleConsumeWCF\obj\Debug\ConsoleConsumeWCF.pdb

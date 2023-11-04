@@ -1,0 +1,8 @@
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.AssemblyInfo.cs
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.RazorAssemblyInfo.cache
+C:\Users\brook\Documents\David's Development\David\Blazor\BlazorCrudAppII\Server\obj\Debug\net7.0\BlazorCrudAppII.Server.RazorAssemblyInfo.cs
