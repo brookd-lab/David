@@ -1,0 +1,5 @@
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\NUnit\obj\Debug\net7.0\NUnit.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\NUnit\obj\Debug\net7.0\NUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\NUnit\obj\Debug\net7.0\NUnit.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\NUnit\obj\Debug\net7.0\NUnit.AssemblyInfo.cs
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\NUnit\obj\Debug\net7.0\NUnit.csproj.CoreCompileInputs.cache

@@ -22,3 +22,15 @@ C:\Users\brook\Documents\David's Development\David\API\API\DAL\obj\Debug\net7.0\
 C:\Users\brook\Documents\David's Development\David\API\API\DAL\obj\Debug\net7.0\refint\DAL.dll
 C:\Users\brook\Documents\David's Development\David\API\API\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Users\brook\Documents\David's Development\David\API\API\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\temp\DavidRepository\API\API\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\temp\DavidRepository\API\API\DAL\bin\Debug\net7.0\DAL.dll
+C:\temp\DavidRepository\API\API\DAL\bin\Debug\net7.0\DAL.pdb
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.dll
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\DAL.pdb
+C:\temp\DavidRepository\API\API\DAL\obj\Debug\net7.0\ref\DAL.dll
