@@ -56,6 +56,7 @@ namespace ASPNetMVCCrudWithDAL.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
         public ActionResult Delete(int Id)
         {
             var employee = GetEmployeeById(Id);

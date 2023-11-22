@@ -1073,6 +1073,19 @@
             "rid": "win"
           }
         }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
       }
     }
   },
@@ -3143,10 +3156,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DAL >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
@@ -3161,11 +3180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brook\\Documents\\David's Development\\David\\APIConsumeDAL\\APIConsumeDAL.csproj",
+      "projectUniqueName": "C:\\temp\\David\\APIConsumeDAL\\APIConsumeDAL.csproj",
       "projectName": "APIConsumeDAL",
-      "projectPath": "C:\\Users\\brook\\Documents\\David's Development\\David\\APIConsumeDAL\\APIConsumeDAL.csproj",
+      "projectPath": "C:\\temp\\David\\APIConsumeDAL\\APIConsumeDAL.csproj",
       "packagesPath": "C:\\Users\\brook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brook\\Documents\\David's Development\\David\\APIConsumeDAL\\obj\\",
+      "outputPath": "C:\\temp\\David\\APIConsumeDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3186,7 +3205,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\temp\\David\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\temp\\David\\DAL\\DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -10,3 +10,15 @@ C:\Users\brook\Documents\David's Development\David\DAL\obj\Debug\net7.0\DAL.dll
 C:\Users\brook\Documents\David's Development\David\DAL\obj\Debug\net7.0\refint\DAL.dll
 C:\Users\brook\Documents\David's Development\David\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Users\brook\Documents\David's Development\David\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\temp\David\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\temp\David\DAL\bin\Debug\net7.0\DAL.dll
+C:\temp\David\DAL\bin\Debug\net7.0\DAL.pdb
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.dll
+C:\temp\David\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\temp\David\DAL\obj\Debug\net7.0\DAL.pdb
+C:\temp\David\DAL\obj\Debug\net7.0\ref\DAL.dll

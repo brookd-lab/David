@@ -1,5 +1,6 @@
+using DAL.Data;
+using DAL.Repository;
 using Microsoft.EntityFrameworkCore;
-using MVCEmployee.Data;
 
 namespace MVCEmployee
 {
@@ -15,6 +16,7 @@ namespace MVCEmployee
             // Add DbContext
             builder.Services.AddDbContext<ApplicationDbContext>(
        options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+            builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
             var app = builder.Build();
 

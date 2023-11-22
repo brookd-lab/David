@@ -1,6 +1,6 @@
 using DAL.Repository;
 using Moq;
-using MVCEmployee.Models;
+using DAL.Model;
 using System;
 
 namespace UnitTestProject

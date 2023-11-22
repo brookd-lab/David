@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brook\\Documents\\David's Development\\David\\APIEmployee\\APIEmployee.csproj": {}
+    "C:\\temp\\David\\APIEmployee\\APIEmployee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brook\\Documents\\David's Development\\David\\APIEmployee\\APIEmployee.csproj": {
+    "C:\\temp\\David\\APIEmployee\\APIEmployee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brook\\Documents\\David's Development\\David\\APIEmployee\\APIEmployee.csproj",
+        "projectUniqueName": "C:\\temp\\David\\APIEmployee\\APIEmployee.csproj",
         "projectName": "APIEmployee",
-        "projectPath": "C:\\Users\\brook\\Documents\\David's Development\\David\\APIEmployee\\APIEmployee.csproj",
+        "projectPath": "C:\\temp\\David\\APIEmployee\\APIEmployee.csproj",
         "packagesPath": "C:\\Users\\brook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brook\\Documents\\David's Development\\David\\APIEmployee\\obj\\",
+        "outputPath": "C:\\temp\\David\\APIEmployee\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,33 +1,33 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MVCEmployee.Data;
-using MVCEmployee.Models;
+﻿using DAL.Repository;
+using DAL.Model;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using MVCEmployee.Models;
 
 namespace MVCEmployee.Controllers
 {
     public class EmployeeController : Controller
     {
         private readonly ILogger<EmployeeController> _logger;
-        private readonly ApplicationDbContext _context;
+        private readonly IEmployeeRepository _repo;
         private List<Employee> _employees;
 
-        public EmployeeController(ApplicationDbContext context,
+        public EmployeeController(IEmployeeRepository repo,
             ILogger<EmployeeController> logger)
         {
-            _context = context;
+            _repo = repo;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            _employees = _context.Employee.ToList();
+            _employees = _repo.GetAllEmployees();
             return View(_employees);
         }
 
-        public Employee GetEmployeeById(int Id)
+        public Employee? GetEmployeeById(int Id)
         {
-            var employee = _context.Employee
-               .FirstOrDefault(m => m.Id == Id);
+            Employee? employee = _repo.GetEmployeeById(Id);
 
             return employee;
         }
@@ -54,11 +54,12 @@ namespace MVCEmployee.Controllers
         public IActionResult Update(Employee employee)
         {
             var data = GetEmployeeById(employee.Id);
+            
             if (data != null)
             {
                 data.Name = employee.Name;
                 data.Salary = employee.Salary;
-                _context.SaveChanges();
+                _repo.UpdateEmployee(data);
             }
             return RedirectToAction("Index");
         }
@@ -72,8 +73,7 @@ namespace MVCEmployee.Controllers
         [HttpPost]
         public IActionResult Delete(Employee employee)
         {
-            _context.Remove(employee);
-            _context.SaveChanges();
+            _repo.DeleteEmployee(employee.Id);
             return RedirectToAction("Index");
         }
 
@@ -86,8 +86,7 @@ namespace MVCEmployee.Controllers
         [HttpPost]
         public IActionResult Create(Employee employee)
         {
-            _context.Add(employee);
-            _context.SaveChanges();
+            _repo.InsertEmployee(employee);
             return RedirectToAction("Index");
         }
 

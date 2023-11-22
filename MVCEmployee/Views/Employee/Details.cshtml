@@ -1,4 +1,5 @@
-﻿@model Employee 
+﻿@using DAL.Model
+@model Employee 
 
 @{  
     ViewData["Title"] = "Employee Details";  
@@ -23,6 +24,6 @@
     </dl>  
 </div>  
 <div>  
-    <a asp-action="./" asp-route-id="@Model.Id">Edit</a> |  
+    <a asp-action="Update" asp-route-id="@Model.Id">Edit</a> |  
     <a asp-action="Index">Back to List</a>  
 </div>  

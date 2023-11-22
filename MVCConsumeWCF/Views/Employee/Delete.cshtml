@@ -20,7 +20,7 @@
                 <input type="text" class="form-control" name="Salary" placeholder="Salary" value="@Model.salary" required>
             </div>
             <button class="btn btn-success" type="submit">Delete Employee</button>
-            <button class="btn btn-primary" asp-action="Index">Back to List</button>
+            <a class="btn btn-info" href='@Url.Action("Index", "Employee")'>Back to List</a>
         </form>
     </div>
 </div>

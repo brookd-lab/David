@@ -1,3 +1,5 @@
+using DAL.Model;
+using DAL.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIConsumeDAL.Controllers

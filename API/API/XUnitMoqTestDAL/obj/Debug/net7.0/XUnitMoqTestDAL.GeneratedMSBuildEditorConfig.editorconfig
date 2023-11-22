@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = XUnitMoqTestDAL
-build_property.ProjectDir = C:\Users\brook\Documents\David's Development\David\API\API\XUnitMoqTestDAL\
+build_property.ProjectDir = C:\temp\David\API\API\XUnitMoqTestDAL\
