@@ -1,0 +1,12 @@
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\NetMVCDAL.dll.config
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\NetMVCDAL.dll
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\NetMVCDAL.pdb
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\EntityFramework.dll
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\EntityFramework.xml
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\obj\Debug\DAL.csproj.CopyComplete
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\obj\Debug\NetMVCDAL.dll
+C:\temp\David\MVCNetWithDAL\NetMVCDAL\obj\Debug\NetMVCDAL.pdb
