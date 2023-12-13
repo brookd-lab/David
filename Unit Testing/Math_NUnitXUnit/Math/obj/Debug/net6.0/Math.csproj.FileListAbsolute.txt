@@ -1,0 +1,12 @@
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\bin\Debug\net6.0\Math.deps.json
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\bin\Debug\net6.0\Math.dll
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\bin\Debug\net6.0\Math.pdb
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.csproj.AssemblyReference.cache
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.AssemblyInfoInputs.cache
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.AssemblyInfo.cs
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.csproj.CoreCompileInputs.cache
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.dll
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\refint\Math.dll
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\Math.pdb
+C:\Users\brook\Documents\David's Development\Unit Testing\NUnit\Math\obj\Debug\net6.0\ref\Math.dll

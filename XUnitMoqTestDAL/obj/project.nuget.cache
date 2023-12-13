@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EsySBOQxgAVq+Sksv6STNBCZZxr+gcdytX+B27NPLvsHC9nG00DKlpWUb/G2Z23rBrNdfqGQF7H2di4T4WiVig==",
+  "dgSpecHash": "j/2Zkg3ISZEmefVoNpAdLGSFNtCJGwJCPISICtAm7/akDocPnxAFQOgNcN+bj+8BjRJhszfKLbhijEE0k7yuUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brook\\Documents\\David's Development\\David\\XUnitMoqTestDAL\\XUnitMoqTestDAL.csproj",
+  "projectFilePath": "C:\\temp\\DavidRepository\\XUnitMoqTestDAL\\XUnitMoqTestDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brook\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -44,6 +44,7 @@
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\brook\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\moq\\4.20.69\\moq.4.20.69.nupkg.sha512",
