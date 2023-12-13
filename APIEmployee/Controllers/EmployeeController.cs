@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MVCEmployee.Data;
 using MVCEmployee.Models;
 
@@ -19,48 +20,54 @@ namespace APIEmployee.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
-        public List<Employee> GetAll()
+        [HttpGet("/employees")]
+        public async Task<List<Employee>> GetAll()
         {
-            _employees = _context.Employee.ToList();
+            _employees = await _context.Employee.ToListAsync();
             return _employees;
         }
 
-        [HttpGet("{id}")]
-        public Employee GetById(int id)
+        [HttpGet("/employees/{id}")]
+        public async Task<IResult> GetById(int id)
         {
-            var employee = _context.Employee.Find(id);
+            var employee = await _context.Employee.FindAsync(id);
+            if (employee == null)
+            {
+                return Results.NotFound(employee); //404
+            }
 
-            return employee;
+            return Results.Ok(employee); //200
         }
 
-        [HttpPost]
-        public Employee Create(Employee employee)
+        [HttpPost("/employees/create/")]
+        public async Task<IResult> Create(Employee employee)
         {
-            _context.Add<Employee>(employee);
-            _context.SaveChanges();
+            await _context.AddAsync<Employee>(employee);
+            await _context.SaveChangesAsync();
 
-            return employee;
+            return Results.Created($"/employee/{employee.Id}", employee);
         }
 
-        [HttpPut]
-        public Employee Update(Employee employee)
+        [HttpPut("/employees/update/")]
+        public async Task<IResult> Update(Employee employee)
         {
             _context.Update<Employee>(employee);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
-            return employee;
+            return Results.NoContent(); //204
         }
 
-        [HttpDelete]
-        public Employee DeleteByID(int id)
+        [HttpDelete("/employees/delete/")]
+        public async Task<IResult> DeleteByID(int id)
         {
-            var employee = _context.Employee.Find(id);
+            var employee = await _context.Employee.FindAsync(id);
+            if (employee == null)
+                return Results.NotFound(employee);
             
             _context.Employee.Remove(employee);
-            _context.SaveChanges();
-            
-            return employee;
+            await _context.SaveChangesAsync();
+
+            return Results.NoContent();
         }
     }
 }
