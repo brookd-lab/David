@@ -69,3 +69,5 @@ C:\temp\David\Employee.MinimalApi.Repo\obj\Debug\net7.0\refint\Employee.MinimalA
 C:\temp\David\Employee.MinimalApi.Repo\obj\Debug\net7.0\Employee.MinimalApi.Repo.pdb
 C:\temp\David\Employee.MinimalApi.Repo\obj\Debug\net7.0\Employee.MinimalApi.Repo.genruntimeconfig.cache
 C:\temp\David\Employee.MinimalApi.Repo\obj\Debug\net7.0\ref\Employee.MinimalApi.Repo.dll
+C:\temp\David\Employee.MinimalApi.Repo\bin\Debug\net7.0\Employee.Repo.dll
+C:\temp\David\Employee.MinimalApi.Repo\bin\Debug\net7.0\Employee.Repo.pdb

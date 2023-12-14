@@ -1133,6 +1133,23 @@
             "rid": "win"
           }
         }
+      },
+      "Employee.Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "7.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Employee.Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employee.Repo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3618,10 +3635,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Employee.Repo/1.0.0": {
+      "type": "project",
+      "path": "../Employee.Repo/Employee.Repo.csproj",
+      "msbuildProject": "../Employee.Repo/Employee.Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Employee.Repo >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -3660,7 +3683,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\temp\\David\\Employee.Repo\\Employee.Repo.csproj": {
+              "projectPath": "C:\\temp\\David\\Employee.Repo\\Employee.Repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

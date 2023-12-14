@@ -1,8 +1,8 @@
-using MinimalApi.Repo.Data;
-using MinimalApi.Repo.Repository;
-using MinimalApi.Repo.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
+using Repo.Data;
+using Repo.Models;
+using Repo.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,0 +1,12 @@
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.csproj.AssemblyReference.cache
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.AssemblyInfoInputs.cache
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.AssemblyInfo.cs
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.csproj.CoreCompileInputs.cache
+C:\temp\David\Employee.Repo\bin\Debug\net7.0\Employee.Repo.deps.json
+C:\temp\David\Employee.Repo\bin\Debug\net7.0\Employee.Repo.dll
+C:\temp\David\Employee.Repo\bin\Debug\net7.0\Employee.Repo.pdb
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.dll
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\refint\Employee.Repo.dll
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.pdb
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\ref\Employee.Repo.dll
