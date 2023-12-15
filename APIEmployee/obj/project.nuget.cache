@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "N+FGjJiCEmIT8/NsH/j21xOzNrqDeI2oFDOiLiTro7Wg1xChhb1QqASD/AcCL/hLnafdt2nI0b685LNxoSkpyQ==",
+  "dgSpecHash": "k5OGVLx45wuYK497TWSIxhgmlESiDQV8I2MbizxpkPYz6VrWmHSvi+XhJuyb5NXNthlC9ALEHMoIqSnBruW6Jw==",
   "success": true,
   "projectFilePath": "C:\\temp\\David\\APIEmployee\\APIEmployee.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brook\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\brook\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\brook\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

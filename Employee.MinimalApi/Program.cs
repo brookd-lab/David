@@ -1,6 +1,6 @@
+using MinimalApi.Data;
 using Microsoft.EntityFrameworkCore;
-using MVCEmployee.Data;
-using MVCEmployee.Models;
+using MinimalApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

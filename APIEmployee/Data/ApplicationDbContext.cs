@@ -1,12 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MVCEmployee.Models;
 
-namespace MVCEmployee.Data
+namespace APIEmployee.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Employee> Employee { get; set;}
+        public DbSet<Employee> Employee { get; set; }
     }
 }

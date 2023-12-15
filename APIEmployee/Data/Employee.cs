@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MVCEmployee.Models
+namespace APIEmployee.Data
 {
     public class Employee
     {

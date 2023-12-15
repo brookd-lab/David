@@ -1,10 +1,11 @@
+using APIEmployee.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MVCEmployee.Data;
-using MVCEmployee.Models;
 
 namespace APIEmployee.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class EmployeeController : ControllerBase

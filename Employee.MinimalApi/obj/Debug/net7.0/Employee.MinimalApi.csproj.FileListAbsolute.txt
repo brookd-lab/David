@@ -69,3 +69,4 @@ C:\temp\David\Employee.MinimalApi\obj\Debug\net7.0\refint\Employee.MinimalApi.dl
 C:\temp\David\Employee.MinimalApi\obj\Debug\net7.0\Employee.MinimalApi.pdb
 C:\temp\David\Employee.MinimalApi\obj\Debug\net7.0\Employee.MinimalApi.genruntimeconfig.cache
 C:\temp\David\Employee.MinimalApi\obj\Debug\net7.0\ref\Employee.MinimalApi.dll
+C:\temp\David\Employee.MinimalApi\obj\Debug\net7.0\Employee.MinimalApi.sourcelink.json

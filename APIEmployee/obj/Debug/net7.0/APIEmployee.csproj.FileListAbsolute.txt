@@ -140,3 +140,5 @@ C:\temp\David\APIEmployee\obj\Debug\net7.0\scopedcss\bundle\APIEmployee.styles.c
 C:\temp\David\APIEmployee\obj\Debug\net7.0\APIEmployee.csproj.CopyComplete
 C:\temp\David\APIEmployee\obj\Debug\net7.0\APIEmployee.genruntimeconfig.cache
 C:\temp\David\APIEmployee\obj\Debug\net7.0\ref\APIEmployee.dll
+C:\temp\David\APIEmployee\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\temp\David\APIEmployee\obj\Debug\net7.0\APIEmployee.sourcelink.json

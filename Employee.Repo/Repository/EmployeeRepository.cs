@@ -1,21 +1,21 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Employee.Repo.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
-using Repo.Data;
 using Repo.Models;
 
-namespace Repo.Repository
-{  
+namespace Employee.Repo.Repository
+{
     public class EmployeeRepository
     {
         public readonly ApplicationDbContext _dbContext;
         public EmployeeRepository(ApplicationDbContext dbContext)
-        { 
+        {
             _dbContext = dbContext;
         }
 
         public async Task<IResult> GetAll()
-        {   
+        {
             var employees = await _dbContext.Employee.ToListAsync();
             return Results.Ok(employees);
         }

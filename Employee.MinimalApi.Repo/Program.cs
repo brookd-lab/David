@@ -1,8 +1,8 @@
+using Employee.Repo.Data;
+using Employee.Repo.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
-using Repo.Data;
 using Repo.Models;
-using Repo.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -10,3 +10,4 @@ C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.dll
 C:\temp\David\Employee.Repo\obj\Debug\net7.0\refint\Employee.Repo.dll
 C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.pdb
 C:\temp\David\Employee.Repo\obj\Debug\net7.0\ref\Employee.Repo.dll
+C:\temp\David\Employee.Repo\obj\Debug\net7.0\Employee.Repo.sourcelink.json

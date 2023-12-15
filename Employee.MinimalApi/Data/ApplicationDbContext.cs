@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MVCEmployee.Models;
+using MinimalApi.Models;
 
-namespace MVCEmployee.Data
+namespace MinimalApi.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Employee> Employee { get; set;}
+        public DbSet<Employee> Employee { get; set; }
     }
 }
