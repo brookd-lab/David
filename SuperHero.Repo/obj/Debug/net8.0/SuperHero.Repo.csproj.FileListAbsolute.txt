@@ -1,0 +1,13 @@
+C:\temp\David\SuperHero.Repo\bin\Debug\net8.0\SuperHero.Repo.deps.json
+C:\temp\David\SuperHero.Repo\bin\Debug\net8.0\SuperHero.Repo.dll
+C:\temp\David\SuperHero.Repo\bin\Debug\net8.0\SuperHero.Repo.pdb
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.csproj.AssemblyReference.cache
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.AssemblyInfoInputs.cache
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.AssemblyInfo.cs
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.csproj.CoreCompileInputs.cache
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.sourcelink.json
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.dll
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\refint\SuperHero.Repo.dll
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\SuperHero.Repo.pdb
+C:\temp\David\SuperHero.Repo\obj\Debug\net8.0\ref\SuperHero.Repo.dll

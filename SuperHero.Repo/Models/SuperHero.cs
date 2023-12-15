@@ -1,4 +1,4 @@
-﻿namespace SuperHeroAPI_DotNet8.Entities
+﻿namespace Repo.Models
 {
     public class SuperHero
     {

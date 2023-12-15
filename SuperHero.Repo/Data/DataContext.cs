@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using SuperHeroAPI_DotNet8.Entities;
+﻿
+using Microsoft.EntityFrameworkCore;
 using System.Data;
+using Repo.Models;
 
-namespace SuperHeroAPI_DotNet8.Data
+namespace Repo.Data
 {
     public class DataContext : DbContext
     {

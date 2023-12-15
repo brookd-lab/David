@@ -1,15 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SuperHeroAPI_DotNet8.Data;
-using SuperHeroAPI_DotNet8.Entities;
+using Repo.Data;
+using Repo.Models;
 
-namespace SuperHeroAPI_DotNet8.Repos
+namespace Repo.Services
 {
-    public class SuperHeroRepo
+    public class SuperHeroService
     {
         private readonly DataContext _context;
 
-        public SuperHeroRepo(DataContext context)
+        public SuperHeroService(DataContext context)
         {
             _context = context;
         }

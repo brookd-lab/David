@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SuperHeroAPI_DotNet8.Entities;
-using SuperHeroAPI_DotNet8.Repos;
+using Repo.Models;
+using Repo.Services;
 
 namespace SuperHeroAPI_DotNet8.Controllers
 {
@@ -10,9 +10,9 @@ namespace SuperHeroAPI_DotNet8.Controllers
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
-        private readonly SuperHeroRepo _repo;
+        private readonly SuperHeroService _repo;
 
-        public SuperHeroController(SuperHeroRepo repo)
+        public SuperHeroController(SuperHeroService repo)
         {
             _repo = repo;
         }
