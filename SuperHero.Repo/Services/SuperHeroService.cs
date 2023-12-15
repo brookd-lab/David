@@ -59,6 +59,8 @@ namespace Repo.Services
             }
             else
             {
+
+                _context.Entry(foundHero).State = EntityState.Detached;
                 _context.Update<SuperHero>(hero);
                 await _context.SaveChangesAsync();
                 return Results.Ok(await _context.SuperHeroes.ToListAsync());
