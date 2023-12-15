@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace APIEmployee.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("[controller]")]
     public class EmployeeController : ControllerBase
