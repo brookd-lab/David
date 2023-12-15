@@ -1,10 +1,10 @@
-﻿using Employee.Repo.Data;
+﻿using Repo.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using Repo.Models;
 
-namespace Employee.Repo.Repository
+namespace Repo.Repository
 {
     public class EmployeeRepository
     {

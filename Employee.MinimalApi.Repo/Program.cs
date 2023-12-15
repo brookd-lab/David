@@ -1,5 +1,5 @@
-using Employee.Repo.Data;
-using Employee.Repo.Repository;
+using Repo.Data;    
+using Repo.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Repo.Models;
