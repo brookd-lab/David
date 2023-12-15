@@ -52,9 +52,17 @@ namespace Repo.Services
 
         public async Task<IResult> UpdateHero(SuperHero hero)
         {
-            _context.Update<SuperHero>(hero);
-            await _context.SaveChangesAsync();
-            return Results.Ok(await _context.SuperHeroes.ToListAsync());
+            var foundHero = await _context.SuperHeroes.FindAsync(hero.Id);
+            if (foundHero == null)
+            {
+                return Results.NotFound($"Could not find hero by id: {hero.Id}");
+            }
+            else
+            {
+                _context.Update<SuperHero>(hero);
+                await _context.SaveChangesAsync();
+                return Results.Ok(await _context.SuperHeroes.ToListAsync());
+            }
         }
 
         public async Task<IResult> DeleteHero(int id)
@@ -65,7 +73,7 @@ namespace Repo.Services
                 return Results.NotFound("No hero to delete");
             }
             else
-            {   
+            {
                 _context.SuperHeroes.Remove(hero);
                 await _context.SaveChangesAsync();
                 return Results.Ok(await _context.SuperHeroes.ToListAsync());
