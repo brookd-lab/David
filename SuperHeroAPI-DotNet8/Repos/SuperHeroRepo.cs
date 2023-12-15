@@ -19,7 +19,7 @@ namespace SuperHeroAPI_DotNet8.Repos
             var heroes = await _context.SuperHeroes.ToListAsync();
             if (heroes == null)
             {
-                return Results.NotFound();
+                return Results.NotFound("There are no heroes yet!");
             }
             else
             {
@@ -34,7 +34,7 @@ namespace SuperHeroAPI_DotNet8.Repos
             var hero = await _context.SuperHeroes.FindAsync(id);
             if (hero == null)
             {
-                return Results.NotFound(hero);
+                return Results.NotFound($"Hero not found for id: {id}");
             }
             else
             {
@@ -46,14 +46,14 @@ namespace SuperHeroAPI_DotNet8.Repos
         {
             await _context.AddAsync(hero);
             await _context.SaveChangesAsync();
-            return Results.Created("SuperHero/Add", hero);
+            return Results.Created("SuperHero/Add", await _context.SuperHeroes.ToListAsync());
         }
 
         public async Task<IResult> UpdateHero(SuperHero hero)
         {
             _context.Update<SuperHero>(hero);
             await _context.SaveChangesAsync();
-            return Results.NoContent();
+            return Results.Ok(await _context.SuperHeroes.ToListAsync());
         }
 
         public async Task<IResult> DeleteHero(int id)
@@ -61,13 +61,13 @@ namespace SuperHeroAPI_DotNet8.Repos
             var hero = await _context.SuperHeroes.FindAsync(id);
             if (hero == null)
             {
-                return Results.NotFound();
+                return Results.NotFound("No hero to delete");
             }
             else
             {   
                 _context.SuperHeroes.Remove(hero);
                 await _context.SaveChangesAsync();
-                return Results.NoContent();
+                return Results.Ok(await _context.SuperHeroes.ToListAsync());
             }
         }
     }
